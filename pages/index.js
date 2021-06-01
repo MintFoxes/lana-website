@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Brand from "../components/Brand"
+import Cards from "../components/Cards"
 import ArrowButton from "../components/ArrowButton"
 
 export default function Home() {
@@ -23,7 +24,10 @@ export default function Home() {
       </section>
 
       <section id="Projects">
-      <h1 className="text-gray-200">Page Two</h1>
+      <div className="grid justify-items-center">
+        <h1 className="text-gray-200 mb-12">Our Projects</h1>
+        <Cards />
+      </div>
       </section>
 
       <section id="About-us">
@@ -43,7 +47,7 @@ export default function Home() {
           place-items: center;
           width: 100%;
           height: 100vh;
-          
+          user-select: none;
         }
 
         section img {

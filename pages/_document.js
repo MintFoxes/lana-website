@@ -19,15 +19,15 @@ class MyDocument extends Document {
             <meta name="twitter:card" content="summary_large_image"></meta>
             <meta name="twitter:site" content="@KTSnowy_"></meta>
             <meta name="twitter:creator" content="@KTSnowy_"></meta>
-            <meta name="twitter:title" content="Project Lana Software - Homepage"></meta>
+            <meta name="twitter:title" content="Project Lana Arts and Software - Homepage"></meta>
             <meta name="twitter:description" content="A compilation of programming projects by a fox and a sergal."></meta>
             <meta name="twitter:image" content="https://www.projectlana.app/lanabanner.png"></meta>
 
             {/* Open Graph meta tags */}
-            <meta property="og:title" content="Project Lana Software - Homepage"></meta>
+            <meta property="og:title" content="Project Lana Arts and Software - Homepage"></meta>
             <meta property="og:description" content="A compilation of programming projects by a fox and a sergal."></meta>
             <meta property="og:image" content="https://www.projectlana.app/lanabanner.png"></meta>
-            <meta property="og:image:alt" content="Project Lana Software Banner"></meta>
+            <meta property="og:image:alt" content="Project Lana Arts and Software - Banner"></meta>
             <meta property="og:locale" content="en_US"></meta>
             <meta property="og:type" content="website"></meta>
             <meta property="og:url" content="https://www.projectlana.app"></meta>
@@ -43,8 +43,6 @@ class MyDocument extends Document {
             <link rel="apple-touch-icon" href="/assets/icon-512-circle.png"></link>
             <link rel="preconnect" href="https://fonts.gstatic.com"></link>
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet"></link>
-            <link rel="stylesheet" href="/assets/bootstrap.min.css"></link>
-            <script src="/assets/bootstrap.bundle.min.js"></script>
 
         </Head>
         <body>
