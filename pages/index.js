@@ -1,7 +1,6 @@
 import Head from "next/head"
-import Accordion from "../components/Accordion"
 import Brand from "../components/Brand"
-import Arrow from "../components/Arrow"
+import ArrowButton from "../components/ArrowButton"
 
 export default function Home() {
   return (
@@ -15,11 +14,11 @@ export default function Home() {
       <section>
         <div className="grid justify-items-center">
           <img className="rounded-full" src="/lana.jpg" loading="lazy" draggable="false" width="250" height="250" alt="Lana the Protogen"></img>
-          <h1 className="text-gray-200 mt-5 mb-8">Welcome to our page</h1>
+          <h1 className="text-gray-200 mt-5 mb-12">Welcome to our page</h1>
           <p className="text-gray-200">This page serves as a sort of portfolio for our projects, and Lana is</p>
           <p className="text-gray-200">a character we created to be a mascot for these projects.</p>
           <p className="text-gray-200 my-4">Below you can find more information about us and our work.</p>
-          <Arrow />
+          <ArrowButton />
         </div>
       </section>
 
@@ -44,30 +43,12 @@ export default function Home() {
           place-items: center;
           width: 100%;
           height: 100vh;
-          user-select: none;
+          
         }
 
         section img {
           border: 4px solid #303238;
           user-select: none;
-        }
-
-        .button-container button {
-          color: #AEE9E0;
-          padding: 1rem;
-          width: 125px;
-          border: 2px solid #AEE9E0;
-          border-radius: 25px;
-          outline-offset: 5px;
-          font-weight: 500;
-          user-select: none;
-          transition: all 0.4s ease;
-        }
-
-        .button-container button:hover {
-          background-color: #AEE9E0;
-          color: #212329;
-          transition: all 0.4s ease;
         }
 
         p {
