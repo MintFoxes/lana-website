@@ -19,11 +19,6 @@ export default function Home() {
           <p className="text-gray-200">This page serves as a sort of portfolio for our projects, and Lana is</p>
           <p className="text-gray-200">a character we created to be a mascot for these projects.</p>
           <p className="text-gray-200 my-4">Below you can find more information about us and our work.</p>
-          <div className="button-container mt-6">
-            <a href="#Projects"><button className="mr-5">Projects</button></a>
-            <a href="#About-us"><button>About us</button></a>
-
-          </div>
           <Arrow />
         </div>
       </section>

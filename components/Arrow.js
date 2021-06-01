@@ -2,7 +2,7 @@ export default function Arrow() {
     return (
       <div className="grid justify-items-center arrow">
   
-        <span className="my-2">˅</span>
+        <span className="mt-12">˅</span>
   
         <style jsx>{`
   
