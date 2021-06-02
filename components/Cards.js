@@ -1,7 +1,7 @@
 export default function Cards() {
     return (
 
-      <div className="grid text-gray-200 my-5">
+      <div className="grid text-gray my-5">
 
         <div className="card">
 
@@ -35,7 +35,7 @@ export default function Cards() {
           .card {
               height: 312px;
               width: 250px;
-              background-color: #303238; 
+              background-color: #313338; 
               border-radius: 45px;
               font-size 1.2rem;
           }

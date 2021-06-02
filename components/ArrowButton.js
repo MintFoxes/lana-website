@@ -1,38 +1,27 @@
 export default function ArrowButton() {
     return (
-      <div className="grid justify-items-center">
+      <div>
   
-        <a href="#Projects"><button className="arrow-button mt-20">˅</button></a>
+        <a href="#Projects">
+          <button 
+            className="animate-bounce text-lana text-5xl rounded-full mt-12 hover:bg-lana hover:text-grayish-100 focus:outline-none"
+          >˅</button>
+        </a>
   
         <style jsx>{`
-  
-          .arrow-button {
-            font-size: 2rem;
-            color: #AEE9E0;
-            user-select: none;
-            animation: arrow 0.5s infinite alternate ease-in;
-          }
-
-          @keyframes arrow {
-          0% { transform: translateY(0) }
-          100% { transform: translateY(0.5rem) }
-          }
 
           button {
-            color: #AEE9E0;
-            padding: 0.5rem;
-            width: 55px;
+            height: 60px;
+            width: 60px;
             border: 2px solid #AEE9E0;
-            border-radius: 50px;
             outline-offset: 5px;
-            font-weight: 500;
+            font-weight: 600;
             user-select: none;
             transition: all 0.4s ease;
           }
   
           button:hover {
-            background-color: #AEE9E0;
-            color: #212329;
+            border: 2px solid #212329;
             transition: all 0.4s ease;
           }
   

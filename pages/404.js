@@ -20,6 +20,22 @@ export default function Custom404() {
             color: #F2F2F2;
             font-family: 'Poppins', sans-serif;
           }
+
+          @media(max-width: 655px) {
+
+            h1 {
+              font-size: 2rem;
+            }
+
+          }
+
+          @media(max-width: 425px) {
+
+            h1 {
+              font-size: 1.5rem;
+            }
+
+          }
           
         `}</style>
 
