@@ -10,18 +10,18 @@ export default function Home() {
         <title>Project Lana Arts and Software - Homepage</title>
       </Head>
 
-      <section className="grid place-items-center place-content-evenly h-screen">
+      <section className="grid place-items-center place-content-evenly min-h-800 sm:h-screen">
         <Brand />
           <div className="grid place-items-center">
             <div className="relative">
-              <img className="rounded-full" src="/lana.jpg" loading="lazy" draggable="false" width="250" height="250" alt="Lana the Protogen"></img>
+              <img className="rounded-full my-4" src="/lana.jpg" loading="lazy" draggable="false" width="250" height="250" alt="Lana the Protogen"></img>
               <div className="absolute inset-4 text-gray orbit animate-spin-slow"></div>
               <div className="absolute inset-2 text-gray orbit animate-spin-slowly"></div>
               <div className="absolute inset-0 text-gray orbit animate-spin-slower"></div>
             </div>
-            <h1 className="text-gray text-4xl mt-12 mb-6">Welcome to our page</h1>
-            <p className="text-xl text-gray">This page serves as a sort of portfolio, and Lana is a character we created to be the mascot for these projects.</p>
-            <p className="text-xl text-gray mt-2">Below you can find more information about us and our work.</p>
+            <h1 className="text-gray text-3xl sm:text-4xl mt-12 mb-6">Welcome to our page</h1>
+            <p className="text-md sm:text-xl text-gray">This page serves as a sort of portfolio, and Lana is a character we created to be the mascot for these projects.</p>
+            <p className="text-md sm:text-xl text-gray mt-2">Below you can find more information about us and our work.</p>
           </div>
         <ArrowButton />
       </section>
@@ -33,10 +33,6 @@ export default function Home() {
           font-size: 10px;
           position:absolute;
           transform: rotate(-45deg);
-        }
-
-        .orbit::after {
-          
         }
 
         img {
@@ -64,22 +60,10 @@ export default function Home() {
           border-bottom: 3px solid #AEE9E0;
         }
 
-        @media(max-width: 655px) {
-
-          h1 {
-            font-size: 2rem;
-          }
-
-          p {
-            font-size 1rem;
-          }
-
-        }
-
         @media(max-width: 425px) {
 
-          h1 {
-            font-size: 1.5rem;
+          p {
+            width: 350px;
           }
 
         }

@@ -4,13 +4,15 @@ export default function ArrowButton() {
   
         <a href="#Projects">
           <button 
-            className="animate-bounce text-lana text-5xl rounded-full mt-12 hover:bg-lana hover:text-grayish-100 focus:outline-none"
+            className="animate-bounce text-lana rounded-full mt-12 hover:bg-lana hover:text-grayish-100 focus:outline-none"
           >˅</button>
         </a>
   
         <style jsx>{`
 
           button {
+            font-size: 46px;
+            line-height: 1;
             height: 60px;
             width: 60px;
             border: 2px solid #AEE9E0;
