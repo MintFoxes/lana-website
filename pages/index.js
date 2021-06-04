@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <h1 className="text-gray text-3xl sm:text-4xl mt-12 mb-6">Welcome to our page</h1>
             <p className="text-md sm:text-xl text-gray">This page serves as a sort of portfolio, and Lana is a character we created to be the mascot for these projects.</p>
-            <p className="text-md sm:text-xl text-gray mt-2">Below you can find more information about us and our work.</p>
+            <p className="text-md sm:text-xl text-gray mt-2">Press the button below to find more information about us and our work.</p>
           </div>
         <ArrowButton />
       </section>
@@ -36,7 +36,7 @@ export default function Home() {
         }
 
         img {
-          border: 4px solid #303238;
+          border: 3px solid #303238;
         }
 
       `}</style>
@@ -57,7 +57,7 @@ export default function Home() {
         }
 
         h1 {
-          border-bottom: 3px solid #AEE9E0;
+          border-bottom: 3px solid #F2F2F2;
         }
 
         @media(max-width: 425px) {
