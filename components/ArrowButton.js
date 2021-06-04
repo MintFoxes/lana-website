@@ -14,7 +14,8 @@ export default function ArrowButton() {
   
         <style jsx>{`
 
-          svg:hover >
+          button:hover >
+          svg >
           circle {
             fill: #212328;
           }
