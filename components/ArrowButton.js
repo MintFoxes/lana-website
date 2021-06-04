@@ -3,9 +3,7 @@ export default function ArrowButton() {
       <div>
   
         <a href="#Projects">
-          <button 
-            className="animate-bounce rounded-full mt-12 hover:bg-gray focus:outline-none"
-          >
+          <button className="animate-pulse rounded-full mt-12 hover:bg-gray focus:outline-none">
             <svg className="fill-current fill-gray hover:fill-grayish-100 transition-colors" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
               <circle cx="50%" cy="50%" r="22" fill="#F2F2F2"/>
             </svg>
