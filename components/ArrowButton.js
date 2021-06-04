@@ -6,8 +6,8 @@ export default function ArrowButton() {
           <button 
             className="animate-bounce rounded-full mt-12 hover:bg-lana focus:outline-none"
           >
-            <svg className="fill-current text-lana hover:text-grayish-100 transition-colors" xmlns="http://www.w3.org/2000/svg" width="80" height="55" viewBox="0 5 75 170">
-              <text id="_" data-name="˅" font-size="128" font-family="SegoeUI, Segoe UI"><tspan x="-37.375" y="138">˅</tspan></text>
+            <svg className="fill-current text-lana hover:text-grayish-100 transition-colors" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 10 5 70">
+              <text id="_" data-name="˅" font-size="100" font-family="SegoeUI, Segoe UI"><tspan x="-15" y="110">˅</tspan></text>
             </svg>
           </button>
         </a>
