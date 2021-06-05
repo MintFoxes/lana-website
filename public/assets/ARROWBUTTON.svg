@@ -1,12 +1,6 @@
 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g clip-path="url(#clip0)">
-    <circle class="HOVER1" cx="30" cy="30" r="30" fill="#F2F2F2"/>
-    <circle class="HOVER2" cx="30" cy="30" r="26" fill="#212328"/>
-    <path class="HOVER1" d="M46.676 17.52L32.468 48.624H27.348L13.012 17.52H20.564L29.908 38.896L39.252 17.52H46.676Z" fill="#F2F2F2"/>
-  </g>
-  <defs>
-    <clipPath id="clip0">
-      <rect width="60" height="60" fill="white"/>
-    </clipPath>
-  </defs>
+  <circle cx="30" cy="30" r="30" fill="#F2F2F2"/>
+  <circle cx="30" cy="30" r="26" fill="#212328"/>
+  <path d="M41.2568 21.275L31.8218 41.93H28.4218L18.9018 21.275H23.9168L30.1218 35.47L36.3268 21.275H41.2568Z" fill="#F2F2F2"/>
 </svg>
+
