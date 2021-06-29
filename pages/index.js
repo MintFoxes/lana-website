@@ -1,43 +1,38 @@
 import Head from "next/head"
 import Brand from "../components/Brand"
 import ArrowButton from "../components/ArrowButton"
+import Projects from "../components/Projects"
+import Lana from "../components/Lana"
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
+    <>
       <Head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0"></meta>
         <title>Project Lana Arts and Software - Homepage</title>
       </Head>
 
-      <section className="grid place-items-center place-content-evenly min-h-800 sm:h-screen overflow-x-hidden">
-        <Brand />
-          <div className="grid place-items-center">
-            <div className="relative my-4">
-              <img className="rounded-full my-4" src="/lana.jpg" loading="lazy" draggable="false" width="245" height="245" alt="Lana the Protogen"></img>
-              <div className="absolute inset-4 text-gray orbit animate-spin-slow overflow-hidden"></div>
-              <div className="absolute inset-2 text-gray orbit animate-spin-slowly overflow-hidden"></div>
-              <div className="absolute inset-0 text-gray orbit animate-spin-slower overflow-hidden"></div>
-            </div>
-            <h1 className="text-gray text-2xl sm:text-4xl mt-12 mb-6">Welcome to our page</h1>
-            <p className="text-md sm:text-xl text-gray">This page serves as a sort of portfolio, and Lana is a character we created to be the mascot for these projects.</p>
-            <p className="text-md sm:text-xl text-gray mt-2">Press the button below to find more information about us and our work.</p>
-          </div>
-        <ArrowButton />
-      </section>
+      <container className="container mx-auto">
+        <section className="grid place-items-center place-content-evenly min-h-800 sm:h-screen overflow-x-hidden">
+          <Brand/>
+            <content className="grid place-items-center">
+              <Lana/>
+              <h1 className="text-gray underline text-2xl sm:text-4xl mt-12 mb-6">Welcome to our page</h1>
+              <p className="text-base sm:text-xl text-gray">This page serves as a sort of portfolio, and Lana is a character we created to be the mascot for these projects.</p>
+              <p className="text-base sm:text-xl text-gray mt-2">Press the button below to find more information about us and our work.</p>
+            </content>
+          <ArrowButton/>
+        </section>
+
+        <container className="grid place-items-center">
+          <section id="Projects" className="grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center place-content-center min-h-800 sm:h-screen">
+            <Projects/>
+          </section>
+        </container>
+
+      </container>
 
       <style jsx>{`
-
-        .orbit::before {
-          content: "⬤";
-          font-size: 10px;
-          position:absolute;
-          transform: rotate(-45deg);
-        }
-
-        img {
-          border: 3px solid #303238;
-        }
 
       `}</style>
 
@@ -56,8 +51,12 @@ export default function Home() {
           word-wrap:break-word;
         }
 
-        h1 {
-          border-bottom: 3px solid #F2F2F2;
+        @media(min-width: 425px) {
+
+          p {
+            width: 375px;
+          }
+
         }
 
         @media(min-width: 640px) {
@@ -69,7 +68,7 @@ export default function Home() {
         }
 
       `}</style>
-      
-    </div>
+
+    </>
   )
 }
