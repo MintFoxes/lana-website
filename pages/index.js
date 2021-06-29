@@ -17,15 +17,15 @@ export default function Home() {
           <Brand/>
             <content className="grid place-items-center">
               <Lana/>
-              <h1 className="text-gray underline text-2xl sm:text-4xl mt-12 mb-6">Welcome to our page</h1>
+              <h1 className="text-gray underline text-2xl sm:text-4xl mt-12 mb-4 sm:mb-6">Welcome to our page</h1>
               <p className="text-base sm:text-xl text-gray">This page serves as a sort of portfolio, and Lana is a character we created to be the mascot for these projects.</p>
               <p className="text-base sm:text-xl text-gray mt-2">Press the button below to find more information about us and our work.</p>
             </content>
           <ArrowButton/>
         </section>
 
-        <container className="grid place-items-center">
-          <section id="Projects" className="grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center place-content-center min-h-800 sm:h-screen">
+        <container className="grid place-items-center my-12">
+          <section id="Projects" className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-8 place-items-center place-content-center min-h-800">
             <Projects/>
           </section>
         </container>
@@ -62,7 +62,7 @@ export default function Home() {
         @media(min-width: 640px) {
 
           p {
-            width: 620px;
+            width: 465px;
           }
 
         }
