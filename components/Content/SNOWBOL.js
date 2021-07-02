@@ -1,7 +1,6 @@
 //SNOWBOL COMPILER CONTENT
 export default function SNOWBOL() {
   return (
-  
     <>
       <logo>
         <img className="mb-6" 
@@ -14,17 +13,16 @@ export default function SNOWBOL() {
         </img>
       </logo>
       <content className="grid place-items-center">
-        <span className="text-gray text-base text-center px-2">
+        <p className="text-gray text-base text-center px-2">
           Information about the SNOWBOL compiler should be here
-        </span>
-        <span className="text-gray text-base text-center px-2 my-6">
+        </p>
+        <p className="text-gray text-base text-center px-2 my-6">
           That includes repo, documentation and download links.
-        </span>
-        <span className="text-gray text-base text-center px-2 mt-12">
+        </p>
+        <p className="text-gray text-base text-center px-2 mt-12">
           Testing in production goes brrrrrr
-        </span>
+        </p>
       </content>
     </>
-  
   )
 }

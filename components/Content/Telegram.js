@@ -1,7 +1,6 @@
 //TELEGRAM CONTENT
 export default function Telegram() {
   return (
-  
     <>
       <logo>
         <img className="mb-6 rounded-3xl" 
@@ -10,15 +9,14 @@ export default function Telegram() {
             draggable="false" 
             width="148" 
             height="75" 
-            alt="Snowbol Compiler Logo">
+            alt="Lana the Protogen">
         </img>
       </logo>
       <content className="grid place-items-center">
-        <span className="text-gray text-base text-center">
+        <p className="text-gray text-base text-center">
           Lana on Telegrau
-        </span>
+        </p>
       </content>
     </>
-  
   )
 }

@@ -1,6 +1,5 @@
 export default function Brand() {
   return (
-
     <>
       <img className="mb-6" 
           src="/logo.svg" 
@@ -11,6 +10,5 @@ export default function Brand() {
           alt="Lana the Protogen">
       </img>
     </>
-
   )
 }

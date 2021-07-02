@@ -1,6 +1,5 @@
 export default function Lana() {
   return (
-  
     <>
       <lana className="relative my-4">
         <img className="border-8 border-solid border-grayish-200 rounded-full my-6" src="/lana.jpg" loading="lazy" draggable="false" width="245" height="245" alt="Lana the Protogen"></img>
@@ -19,7 +18,6 @@ export default function Lana() {
 
       `}</style>
     </>
-  
   )
 }
   

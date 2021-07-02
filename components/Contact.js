@@ -1,6 +1,5 @@
 export default function Contact() {
   return (
-  
     <>
       <lana className="">
         
@@ -10,7 +9,6 @@ export default function Contact() {
 
       `}</style>
     </>
-  
   )
 }
     
